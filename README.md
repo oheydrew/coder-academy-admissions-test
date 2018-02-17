@@ -1,43 +1,30 @@
-Why?
+#Coder Academy Admissions Test
+#Author: Matt McKenzie
+
+##*Why?*
 
 Because coding is hard, and so is this course. Rather than coding relating to being clever, much of what makes a good coder comes down to many of the elements that contribute to making a person good at anything: hard work, focus, and conscientiousness. That also means having grit. It requires management of your anxiety and improving to your ability to concentrate.
 
-
-
 We have had trouble in the past with students who are not suited to the course. While we understand that some people will struggle with the content, we also have to have some realistic expectations around the baseline capabilities of people entering this difficult six months. Students who struggle but work hard are among the most rewarding to teach. Students who have no ability to concentrate or work hard are liabilities that drain teacher resources and distract the class. This test is an attempt to filter out those students, and to help the admissions officer by providing another point of reference for the character of the applicant.
-
-
 
 I would like to go a lot further than this, and formalise some teaching around how to overcome some of the meta-learning difficulties of coding, and how to get better at the skills that contribute to being capable at this difficult career. So this test is (hopefully) designed to assess those characteristics, and also to give the students some indication as to what they are in for. I’d be happy to outline what I mean at some stage in the future. Scott up in Brisbane seems to have some very good ideas around this topic, as of course does Pat. For now we have this admissions test that might illuminate the applicants to some degree.
 
-
-
-
-
-
-Test
+##*Test*
 
 At any point during this, you may use all of the resources of the internet. We want to see this resourcefulness as you go. If you cannot complete a step, we would like to see what steps you took, some sense of what went wrong, and what error messages were produced.
 
 Better still, read those error messages, and use them to work through the issues you encounter.
 
-
-
 If this is all too hard, we would like to see your report on why you struggled. Failure is part of coding. We want to see how you face these challenges, and whether you fight through to the end or not, we would like some record made of the struggle (although should you complete all of the tasks, then this can be brief).
-
-
 
 If you can complete the steps, then there’s no need to record your progress. But if you get stuck and can’t move forward, please note the step you arrived at, what the trouble you had was, what you did to overcome it, and what error messages you found. You could also note the resources you attempted to use to overcome these difficulties (websites, friends, etc) Please send these notes to Nalina.
 
-
-
-Good luck!
+**Good luck!**
 
 
 
-a) Setup
+##a) Setup
 Work out how to install a command line interface (CLI) or shell on your computer. This is a program that can communicate with the computer. You will need this for many of the following tasks.
-
 
 These shells can have names like Bash, Terminal, and so on. You will need to take into account your operating system when researching how to install or access this program. We understand this is intimidating, especially if you haven’t done this type of thing before.
 
@@ -55,7 +42,7 @@ https://www.computerhope.com/issues/ch000742.htm (Links to an external site.)Lin
 
 Change directory into this newly created directory.
 Now, from within that directory, create a directory called ‘coder-academy-prework’.
-b) Installing Git
+##b) Installing Git
 Now we are going to install a program called Git. It helps with version control (so that you may return to a previous version of your software). Use this site to install Git on your machine —
 https://gist.github.com/derhuerst/1b15ff4652a867391f03 (Links to an external site.)Links to an external site.
 
@@ -69,7 +56,7 @@ https://services.github.com/on-demand/github-cli/clone-repo-cli (Links to an ext
 
 Now change directory into the project directory.
 Use the command (you may need to google) to show a list of the files in this directory. You should see two files, index.html, and style.css.
-c) Installing an editor
+##c) Installing an editor
 Now we need a way to edit those files. Use a browser to go to this page —
 https://code.visualstudio.com/docs/setup/setup-overview (Links to an external site.)Links to an external site.
 
@@ -79,11 +66,11 @@ https://code.visualstudio.com/docs/editor/command-line (Links to an external sit
 
 You should now have an editor window open, and we will make some changes to the files here. Before that, left click on each file to bring them up in the edit window. Have a bit of a look at these files - you will be making changes to them for the rest of the project.
 
-d) Setting up your project
+##d) Setting up your project
 But first you need to see what you are looking at. Right click or double click on the index.html file in the left-hand section showing the file system, and then choose ‘Copy Path’.
 Now open a browser and paste the result into the address field of your browser. We’d prefer Chrome to keep things simple. You should now be able to see the webpage that we have made with the code you were looking at before. It’s a bit jarring, and we will try to fix this.
 
-e) Changing the HTML and CSS
+##e) Changing the HTML and CSS
 - The index.html file contains the basic boilerplate to produce a webpage (everything from </head> up), along with the structure that I have added. The style.css file tells that html page what it expects about the specifics of how to render those tags. You will see that the html consists of tags, and that some of those tags have an attribute called class. If you look at the style.css file you’ll see that the tag names and the class names (apart from ‘div’) are represented there. The specific styling rules for each tag are listed between the {} for the class name, and some of them should make some sense just from reading them and looking at the output in the browser. User created classes are added to the tags in the HTML, and are preceded by a dot in the CSS. From here on you will be making some changes, and then checking that these rendered in the browser as you would expect. This will take some getting used to, and some trial and error. You will also need to remember to save your changes in the file, and then refresh the browser page to see the changes.
 
 - Take careful note of the instructions embedded in the previous step. You will need to refer to them frequently to complete the test.
@@ -131,9 +118,7 @@ https://fonts.google.com/ (Links to an external site.)Links to an external site.
 
 - And the colour of the font (which is the ‘color’ attribute) to midnightblue. It looks marginally better than when we started!
 
-f) Send off your completed project
-
+##f) Send off your completed project
 And you are done! Now we need you to zip up your project (with the style.css and index.html files inside, and any notes document you may have needed to make), and send the zipped folder to Nalina!
 
-
-Well done!
+**Well done!**
